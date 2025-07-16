@@ -24,11 +24,11 @@ export default function HeroSection() {
           className="w-full absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center"
         >
           <div className="max-w-4xl mx-auto px-16 sm:px-12">
-            <h1 className="text-5xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
               Start your journey to finding the perfect place to call home
             </h1>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center px-8">
             <Input
               value={""}
               type="text"
